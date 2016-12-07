@@ -1,10 +1,17 @@
 package edu.cs.mum.hotelmanagement.model;
 
-@Enity
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public abstract class Person {
-<<<<<<< HEAD
 	   @Id
-	   @GeneratedValue(strategy = GenerationType.Auto)
+	   @GeneratedValue(strategy = GenerationType.AUTO)
 	   @Column(name = "id", nullable = false, updatable = false)
 	   private Long id;
 	   private String firstName;
@@ -70,15 +77,6 @@ public abstract class Person {
 	}
 
 
-=======
-	
-	   Long id;
-	   String firstName;
-	   String lastName;
-	   String email;
-	   String phoneNumber;
-	   String userName;
-	   String password;   
->>>>>>> 60ae5fa97abc48a5abb434151c1b367097139147
+
 
 }

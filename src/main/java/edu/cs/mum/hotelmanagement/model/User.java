@@ -1,4 +1,7 @@
 package edu.cs.mum.hotelmanagement.model;
+
+import javax.persistence.Entity;
+
 @Entity
 public class User extends Person {
 

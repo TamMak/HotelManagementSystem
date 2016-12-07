@@ -1,13 +1,17 @@
 package edu.cs.mum.hotelmanagement.model;
 
-<<<<<<< HEAD
+
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Guest extends Person {
 
 	private String guestNumber;
+
 	@OneToMany(mappedBy = "guest")
 	private List<SavedReservation> savedReservations;
 
@@ -17,6 +21,17 @@ public class Guest extends Person {
 		this.savedReservations =new ArrayList<>();
 	}
 
+
+	public String getGuestNumber() {
+		return guestNumber;
+	}
+
+
+	public void setGuestNumber(String guestNumber) {
+		this.guestNumber = guestNumber;
+	}
+
+
 	public List<SavedReservation> getSavedReservations() {
 		return savedReservations;
 	}
@@ -25,38 +40,8 @@ public class Guest extends Person {
 		this.savedReservations = savedReservations;
 	}
 
-	public void saveReservation(SavedReservation savedReservation){
+	public void addReservations(SavedReservation savedReservation){
 		this.savedReservations.add(savedReservation);
-=======
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
-
-public class Guest extends Person {
-
-	
-	private Long id;
-	String guestNumber;
-
-	public Guest() {
-				
->>>>>>> 60ae5fa97abc48a5abb434151c1b367097139147
 	}
-
-	public String getGuestNumber() {
-		return guestNumber;
-	}
-
-	public void setGuestNumber(String guestNumber) {
-		this.guestNumber = guestNumber;
-	}
-<<<<<<< HEAD
-
-
-=======
-	
-	
->>>>>>> 60ae5fa97abc48a5abb434151c1b367097139147
 }
+
