@@ -1,8 +1,20 @@
 package edu.cs.mum.hotelmanagement.model;
-
+@Entity
 public class User extends Person {
-	
-	  String staffNumber;
-	   Role role;
+
+	  private String staffNumber;
+
+	  public User(String firstName,String lastName,String email, String phoneNumber,String password,String staffNumber){
+			super(firstName,lastName,email,phoneNumber,password);
+			this.staffNumber = staffNumber;
+	 }
+
+	public String getStaffNumber() {
+		return staffNumber;
+	}
+
+	public void setStaffNumber(String staffNumber) {
+		this.staffNumber = staffNumber;
+	}
 
 }

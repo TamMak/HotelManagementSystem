@@ -1,11 +1,14 @@
 package edu.cs.mum.hotelmanagement.model;
 
+@Embedablee
 public class Address {
-	
-	   Long id;
-	   String street;
-	   String city;
-	   String state;
-	   String zip;
+	@Id
+	@Generated
+
+	private Long id;
+	private String street;
+	private String city;
+	private String state;
+	private String zip;
 
 }
