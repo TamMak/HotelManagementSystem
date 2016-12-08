@@ -13,12 +13,12 @@ public class Guest extends Person {
 	private String guestNumber;
 
 	@OneToMany(mappedBy = "guest")
-	private List<SavedReservation> savedReservations;
+	private List<SavedRoom> savedRooms;
 
 	public Guest(String firstName,String lastName,String email, String phoneNumber,String password,String guestNumber){
 		super(firstName,lastName,email,phoneNumber,password);
 		this.guestNumber = guestNumber;
-		this.savedReservations =new ArrayList<>();
+		this.savedRooms =new ArrayList<>();
 	}
 
 
@@ -32,16 +32,16 @@ public class Guest extends Person {
 	}
 
 
-	public List<SavedReservation> getSavedReservations() {
-		return savedReservations;
+	public List<SavedRoom> getSavedRoom() {
+		return savedRooms;
 	}
 
-	public void setSavedReservations(List<SavedReservation> savedReservations) {
-		this.savedReservations = savedReservations;
+	public void setSavedReservations(List<SavedRoom> savedRooms) {
+		this.savedRooms = savedRooms;
 	}
 
-	public void addReservations(SavedReservation savedReservation){
-		this.savedReservations.add(savedReservation);
+	public void addReservations(SavedRoom savedRoom){
+		this.savedRooms.add(savedRoom);
 	}
 }
 

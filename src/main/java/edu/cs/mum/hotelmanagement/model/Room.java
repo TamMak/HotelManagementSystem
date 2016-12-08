@@ -1,24 +1,40 @@
 package edu.cs.mum.hotelmanagement.model;
 
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class Room {
-	
 	@Id
-	  @GeneratedValue(strategy = GenerationType.AUTO)
-	  private Long id;
-	 private String roomNumber;
-	 private String roomType;
-	 private double price;
-	 private  boolean avilability;
-	 private  String description;
-	   
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
+	private String roomNumber;
+	@Enumerated(EnumType.STRING)
+	private Catagory catagory;
+	private String roomType;
+	private double price;
+	private boolean avilability;
+	private String description;
+	@ManyToOne
+	@JoinColumn(name = "hotelId", nullable = false)
+	private Hotel hotel;
+
 	public Room() {
-		
+
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 	public String getRoomNumber() {
@@ -60,6 +76,13 @@ public class Room {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	   
+
+	public Hotel getHotel() {
+		return hotel;
+	}
+
+	public void setHotel(Hotel hotel) {
+		this.hotel = hotel;
+	}
 
 }
