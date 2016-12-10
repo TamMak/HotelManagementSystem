@@ -7,7 +7,7 @@ import edu.cs.mum.hotelmanagement.model.Guest;
 import edu.cs.mum.hotelmanagement.model.Room;
 import edu.cs.mum.hotelmanagement.model.SavedRoom;
 
-public interface roomService {
+public interface RoomService {
 	List<Room> getAllRooms();
 
 	List<Room> getRoomsByCategory(Catagory catagory);
@@ -18,7 +18,7 @@ public interface roomService {
 
 	void addRoomToSaved(SavedRoom sRoom);
 
-	List<Room> SearchRoom(Catagory catagory, double minPrice, double maxPrice, String roomNumber);
+	List<Room> SearchRoom(Catagory catagory, double minPrice, double maxPrice, String roomType);
 
 	List<SavedRoom> getSavedRooms(Guest guest);
 

@@ -7,6 +7,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 @Entity
 public class Dinner {
 	@Id
@@ -16,13 +18,22 @@ public class Dinner {
 	private String cuisine;
 	private String description;
 	private String serviceHours;
-	private String smokingStatus;
+	private boolean smokingStatus;
 	@ManyToOne
-	@JoinColumn(name = "hotelId", nullable = false)
+    @JoinColumn(name = "hotelId")
+	@JsonBackReference
 	private Hotel hotel;
 
 	public Dinner() {
+		
+	}
 
+	public Dinner(String dinnerName, String cuisine, String description, String serviceHours, boolean smokingStatus) {
+		this.dinnerName = dinnerName;
+		this.cuisine = cuisine;
+		this.description = description;
+		this.serviceHours = serviceHours;
+		this.smokingStatus = smokingStatus;
 	}
 
 	public Long getId() {
@@ -57,11 +68,11 @@ public class Dinner {
 		this.serviceHours = serviceHours;
 	}
 
-	public String getSmokingStatus() {
+	public boolean getSmokingStatus() {
 		return smokingStatus;
 	}
 
-	public void setSmokingStatus(String smokingStatus) {
+	public void setSmokingStatus(boolean smokingStatus) {
 		this.smokingStatus = smokingStatus;
 	}
 

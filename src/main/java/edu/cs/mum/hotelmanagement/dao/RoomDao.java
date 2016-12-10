@@ -2,18 +2,14 @@ package edu.cs.mum.hotelmanagement.dao;
 
 import java.util.List;
 
-import javax.transaction.Transactional;
-
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import edu.cs.mum.hotelmanagement.model.Catagory;
-import edu.cs.mum.hotelmanagement.model.Guest;
 import edu.cs.mum.hotelmanagement.model.Room;
-@Transactional
+@Repository
 public interface RoomDao extends JpaRepository<Room, Long> {
 	public List<Room> findByCatagory(Catagory catagory);
-
-//	public List<Room> findByGuest(Guest guest);
 
 	public List<Room> findByRoomNumber(String roomNumber);
 

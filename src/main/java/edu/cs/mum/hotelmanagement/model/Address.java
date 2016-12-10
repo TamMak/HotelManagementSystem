@@ -1,34 +1,25 @@
 package edu.cs.mum.hotelmanagement.model;
 
 import javax.persistence.Embeddable;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
 @Embeddable
 public class Address {
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
+
 	private String street;
 	private String city;
 	private String state;
 	private String zip;
 
-	public Address(String street,String city,String state,String zip){
-		this.street =street;
+	public Address() {
+
+	}
+
+	public Address(String street, String city, String state, String zip) {
+		this.street = street;
 		this.city = city;
 		this.state = state;
 		this.zip = zip;
 
-	}
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
 	}
 
 	public String getStreet() {

@@ -2,6 +2,8 @@ package edu.cs.mum.hotelmanagement.service.impl;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,16 +13,18 @@ import edu.cs.mum.hotelmanagement.model.Catagory;
 import edu.cs.mum.hotelmanagement.model.Guest;
 import edu.cs.mum.hotelmanagement.model.Room;
 import edu.cs.mum.hotelmanagement.model.SavedRoom;
-import edu.cs.mum.hotelmanagement.service.roomService;
+import edu.cs.mum.hotelmanagement.service.RoomService;
 
 @Service
-public class RoomServiceImpl implements roomService{
+@Transactional
+public class RoomServiceImpl implements RoomService{
 	@Autowired
 	private RoomDao roomDao;
 	
 	@Autowired
 	private SavedRoomDao savedDAO;
-
+	
+	
 	@Override
 	public List<Room> getAllRooms() {
 		
@@ -52,9 +56,9 @@ public class RoomServiceImpl implements roomService{
 	}
 
 	@Override
-	public List<Room> SearchRoom(Catagory category, double minPrice, double maxPrice, String roomNumber) {
-		// TODO Auto-generated method stub
-		return null;
+	public List<Room> SearchRoom(Catagory category, double minPrice, double maxPrice, String roomType) {
+		List<Room> rooms = roomDao.findAll();
+		return rooms;
 	}
 
 	

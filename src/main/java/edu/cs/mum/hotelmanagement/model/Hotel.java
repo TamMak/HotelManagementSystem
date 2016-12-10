@@ -1,16 +1,22 @@
 package edu.cs.mum.hotelmanagement.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 @Entity
 public class Hotel {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
@@ -19,14 +25,29 @@ public class Hotel {
 	private String description;
 	@Embedded
 	private Address address;
-	@OneToMany(mappedBy = "hotel")
-	private List<Room> room;
-	@OneToMany(mappedBy = "hotel")
-	private List<Dinner> dinner;
+	
+	@OneToMany(mappedBy = "hotel",fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@JsonManagedReference
+	private List<Room> rooms;
+	
+	@OneToMany(mappedBy = "hotel", cascade = CascadeType.ALL)//fetch = FetchType.EAGER,
+	@JsonManagedReference
+	private List<Dinner> dinners;
 
 	private int rate;
+	
+	public Hotel(){
+		
+	}
 
-	public Hotel() {
+	public Hotel(String hotelName, String number, String description, Address address, int rate) {
+		this.hotelName = hotelName;
+		this.number = number;
+		this.description = description;
+		this.address = address;
+		this.rate = rate;
+		this.rooms =new ArrayList<>();
+		this.dinners = new ArrayList<>();
 
 	}
 
@@ -78,20 +99,20 @@ public class Hotel {
 		this.address = address;
 	}
 
-	public List<Room> getRoom() {
-		return room;
+	public List<Room> getRooms() {
+		return rooms;
 	}
 
-	public void setRoom(List<Room> room) {
-		this.room = room;
+	public void setRooms(List<Room> rooms) {
+		this.rooms = rooms;
 	}
 
 	public List<Dinner> getDinner() {
-		return dinner;
+		return dinners;
 	}
 
-	public void setDinner(List<Dinner> dinner) {
-		this.dinner = dinner;
+	public void setDinner(List<Dinner> dinners) {
+		this.dinners = dinners;
 	}
 
 }

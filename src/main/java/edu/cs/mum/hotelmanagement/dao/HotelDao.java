@@ -2,16 +2,15 @@ package edu.cs.mum.hotelmanagement.dao;
 
 import java.util.List;
 
-import javax.transaction.Transactional;
-
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import edu.cs.mum.hotelmanagement.model.Catagory;
+import edu.cs.mum.hotelmanagement.model.Address;
 import edu.cs.mum.hotelmanagement.model.Hotel;
-import edu.cs.mum.hotelmanagement.model.Room;
-@Transactional
+@Repository
 public interface HotelDao extends JpaRepository<Hotel, Long> {
 	public List<Hotel> findByHotelName(String hotelName);
+	public List<Hotel> findByAddress(Address address);
 
 
 }
