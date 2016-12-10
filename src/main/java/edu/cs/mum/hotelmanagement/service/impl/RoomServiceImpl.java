@@ -11,10 +11,11 @@ import edu.cs.mum.hotelmanagement.model.Catagory;
 import edu.cs.mum.hotelmanagement.model.Guest;
 import edu.cs.mum.hotelmanagement.model.Room;
 import edu.cs.mum.hotelmanagement.model.SavedRoom;
-import edu.cs.mum.hotelmanagement.service.roomService;
+import edu.cs.mum.hotelmanagement.service.RoomService;
 
 @Service
-public class RoomServiceImpl implements roomService{
+public class RoomServiceImpl implements RoomService{
+	
 	@Autowired
 	private RoomDao roomDao;
 	

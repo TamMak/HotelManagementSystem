@@ -7,7 +7,7 @@ import edu.cs.mum.hotelmanagement.model.Guest;
 import edu.cs.mum.hotelmanagement.model.Room;
 import edu.cs.mum.hotelmanagement.model.SavedRoom;
 
-public interface roomService {
+public interface RoomService {
 	List<Room> getAllRooms();
 
 	List<Room> getRoomsByCategory(Catagory catagory);

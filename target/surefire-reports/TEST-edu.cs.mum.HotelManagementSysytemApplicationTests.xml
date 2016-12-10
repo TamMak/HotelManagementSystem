@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.cs.mum.HotelManagementSysytemApplicationTests" time="0.027" tests="1" errors="1" skipped="0" failures="0">
+<testsuite name="edu.cs.mum.HotelManagementSysytemApplicationTests" time="0.012" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
     <property name="java.vm.version" value="25.73-b02"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mussi\Desktop\HotelManagementSystem"/>
+    <property name="maven.multiModuleProjectDirectory" value="T:\MUM\CS490_Seminar_Angular_Node_Mongo\CS490_Project\HotelManagementSystem"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\mussi\Desktop\HotelManagementSystem"/>
+    <property name="user.dir" value="T:\MUM\CS490_Seminar_Angular_Node_Mongo\CS490_Project\HotelManagementSystem"/>
     <property name="java.runtime.version" value="1.8.0_73-b02"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="T:\MUM\CS490_Seminar_Angular_Node_Mongo\Cs490Project\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4197118644394560634.tmp"/>
+    <property name="classworlds.conf" value="T:\MUM\CS490_Seminar_Angular_Node_Mongo\CS490_Project\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5086379523863328066.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_73\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\mussi\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft VS Code\bin;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\mussi\AppData\Local\Microsoft\WindowsApps;C:\Users\mussi\AppData\Roaming\npm;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_73\bin;C:\Program Files\Git\bin;C:\spring-1.4.2.RELEASE\bin;C:\Spring-Tool-Suite\sts-bundle\sts-3.8.1.RELEASE;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Ppom.xml -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -52,7 +52,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\mussi\Desktop\HotelManagementSystem\EMBEDDED"/>
+    <property name="maven.home" value="T:\MUM\CS490_Seminar_Angular_Node_Mongo\CS490_Project\HotelManagementSystem\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initializationError" classname="edu.cs.mum.HotelManagementSysytemApplicationTests" time="0.027">
+  <testcase name="initializationError" classname="edu.cs.mum.HotelManagementSysytemApplicationTests" time="0.012">
     <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
 	at org.springframework.util.Assert.state(Assert.java:392)
 	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:173)
@@ -93,68 +93,12 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 ]]></error>
-    <system-out><![CDATA[22:34:05.215 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class edu.cs.mum.HotelManagementSysytemApplicationTests]
-22:34:05.232 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-22:34:05.277 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-22:34:05.342 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [edu.cs.mum.HotelManagementSysytemApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-22:34:05.391 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [edu.cs.mum.HotelManagementSysytemApplicationTests], using SpringBootContextLoader
-22:34:05.398 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.cs.mum.HotelManagementSysytemApplicationTests]: class path resource [edu/cs/mum/HotelManagementSysytemApplicationTests-context.xml] does not exist
-22:34:05.399 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.cs.mum.HotelManagementSysytemApplicationTests]: class path resource [edu/cs/mum/HotelManagementSysytemApplicationTestsContext.groovy] does not exist
-22:34:05.399 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [edu.cs.mum.HotelManagementSysytemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-22:34:05.401 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [edu.cs.mum.HotelManagementSysytemApplicationTests]: HotelManagementSysytemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-22:34:05.527 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [edu.cs.mum.HotelManagementSysytemApplicationTests]
-22:34:05.738 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-22:34:05.740 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-22:34:05.740 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-22:34:05.782 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [edu/cs/mum/] to resources [URL [file:/C:/Users/mussi/Desktop/HotelManagementSystem/target/test-classes/edu/cs/mum/], URL [file:/C:/Users/mussi/Desktop/HotelManagementSystem/target/classes/edu/cs/mum/]]
-22:34:05.783 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu\cs\mum]
-22:34:05.784 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu\cs\mum] for files matching pattern [C:/Users/mussi/Desktop/HotelManagementSystem/target/test-classes/edu/cs/mum/*.class]
-22:34:05.795 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\mussi\Desktop\HotelManagementSystem\target\classes\edu\cs\mum]
-22:34:05.797 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\mussi\Desktop\HotelManagementSystem\target\classes\edu\cs\mum] for files matching pattern [C:/Users/mussi/Desktop/HotelManagementSystem/target/classes/edu/cs/mum/*.class]
-22:34:05.798 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:edu/cs/mum/*.class] to resources [file [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu\cs\mum\HotelManagementSysytemApplicationTests.class]]
-22:34:05.890 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [edu/cs/] to resources [URL [file:/C:/Users/mussi/Desktop/HotelManagementSystem/target/test-classes/edu/cs/], URL [file:/C:/Users/mussi/Desktop/HotelManagementSystem/target/classes/edu/cs/]]
-22:34:05.891 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu\cs]
-22:34:05.891 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu\cs] for files matching pattern [C:/Users/mussi/Desktop/HotelManagementSystem/target/test-classes/edu/cs/*.class]
-22:34:05.892 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\mussi\Desktop\HotelManagementSystem\target\classes\edu\cs]
-22:34:05.892 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\mussi\Desktop\HotelManagementSystem\target\classes\edu\cs] for files matching pattern [C:/Users/mussi/Desktop/HotelManagementSystem/target/classes/edu/cs/*.class]
-22:34:05.893 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:edu/cs/*.class] to resources []
-22:34:05.894 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [edu/] to resources [URL [file:/C:/Users/mussi/Desktop/HotelManagementSystem/target/test-classes/edu/], URL [file:/C:/Users/mussi/Desktop/HotelManagementSystem/target/classes/edu/]]
-22:34:05.894 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu]
-22:34:05.894 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu] for files matching pattern [C:/Users/mussi/Desktop/HotelManagementSystem/target/test-classes/edu/*.class]
-22:34:05.895 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\mussi\Desktop\HotelManagementSystem\target\classes\edu]
-22:34:05.895 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\mussi\Desktop\HotelManagementSystem\target\classes\edu] for files matching pattern [C:/Users/mussi/Desktop/HotelManagementSystem/target/classes/edu/*.class]
-22:34:05.896 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:edu/*.class] to resources []
-22:34:05.905 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class edu.cs.mum.HotelManagementSysytemApplicationTests]
-22:34:05.905 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-22:34:05.906 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-22:34:05.906 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [edu.cs.mum.HotelManagementSysytemApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-22:34:05.907 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [edu.cs.mum.HotelManagementSysytemApplicationTests], using SpringBootContextLoader
-22:34:05.909 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.cs.mum.HotelManagementSysytemApplicationTests]: class path resource [edu/cs/mum/HotelManagementSysytemApplicationTests-context.xml] does not exist
-22:34:05.910 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.cs.mum.HotelManagementSysytemApplicationTests]: class path resource [edu/cs/mum/HotelManagementSysytemApplicationTestsContext.groovy] does not exist
-22:34:05.910 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [edu.cs.mum.HotelManagementSysytemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-22:34:05.910 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [edu.cs.mum.HotelManagementSysytemApplicationTests]: HotelManagementSysytemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-22:34:05.949 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [edu.cs.mum.HotelManagementSysytemApplicationTests]
-22:34:05.951 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-22:34:05.955 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-22:34:05.956 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-22:34:05.958 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [edu/cs/mum/] to resources [URL [file:/C:/Users/mussi/Desktop/HotelManagementSystem/target/test-classes/edu/cs/mum/], URL [file:/C:/Users/mussi/Desktop/HotelManagementSystem/target/classes/edu/cs/mum/]]
-22:34:05.958 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu\cs\mum]
-22:34:05.959 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu\cs\mum] for files matching pattern [C:/Users/mussi/Desktop/HotelManagementSystem/target/test-classes/edu/cs/mum/*.class]
-22:34:05.960 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\mussi\Desktop\HotelManagementSystem\target\classes\edu\cs\mum]
-22:34:05.961 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\mussi\Desktop\HotelManagementSystem\target\classes\edu\cs\mum] for files matching pattern [C:/Users/mussi/Desktop/HotelManagementSystem/target/classes/edu/cs/mum/*.class]
-22:34:05.962 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:edu/cs/mum/*.class] to resources [file [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu\cs\mum\HotelManagementSysytemApplicationTests.class]]
-22:34:05.966 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [edu/cs/] to resources [URL [file:/C:/Users/mussi/Desktop/HotelManagementSystem/target/test-classes/edu/cs/], URL [file:/C:/Users/mussi/Desktop/HotelManagementSystem/target/classes/edu/cs/]]
-22:34:05.966 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu\cs]
-22:34:05.967 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu\cs] for files matching pattern [C:/Users/mussi/Desktop/HotelManagementSystem/target/test-classes/edu/cs/*.class]
-22:34:05.972 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\mussi\Desktop\HotelManagementSystem\target\classes\edu\cs]
-22:34:05.973 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\mussi\Desktop\HotelManagementSystem\target\classes\edu\cs] for files matching pattern [C:/Users/mussi/Desktop/HotelManagementSystem/target/classes/edu/cs/*.class]
-22:34:05.974 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:edu/cs/*.class] to resources []
-22:34:05.975 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [edu/] to resources [URL [file:/C:/Users/mussi/Desktop/HotelManagementSystem/target/test-classes/edu/], URL [file:/C:/Users/mussi/Desktop/HotelManagementSystem/target/classes/edu/]]
-22:34:05.976 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu]
-22:34:05.976 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\mussi\Desktop\HotelManagementSystem\target\test-classes\edu] for files matching pattern [C:/Users/mussi/Desktop/HotelManagementSystem/target/test-classes/edu/*.class]
-22:34:05.977 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\mussi\Desktop\HotelManagementSystem\target\classes\edu]
-22:34:05.978 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\mussi\Desktop\HotelManagementSystem\target\classes\edu] for files matching pattern [C:/Users/mussi/Desktop/HotelManagementSystem/target/classes/edu/*.class]
-22:34:05.978 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:edu/*.class] to resources []
+    <system-out><![CDATA[534  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [edu.cs.mum.HotelManagementSysytemApplicationTests], using SpringBootContextLoader
+550  [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [edu.cs.mum.HotelManagementSysytemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+554  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [edu.cs.mum.HotelManagementSysytemApplicationTests]: HotelManagementSysytemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+787  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [edu.cs.mum.HotelManagementSysytemApplicationTests], using SpringBootContextLoader
+788  [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [edu.cs.mum.HotelManagementSysytemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+789  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [edu.cs.mum.HotelManagementSysytemApplicationTests]: HotelManagementSysytemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
 ]]></system-out>
   </testcase>
 </testsuite>

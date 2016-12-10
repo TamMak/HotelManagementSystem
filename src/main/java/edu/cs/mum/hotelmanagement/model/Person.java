@@ -24,6 +24,11 @@ public abstract class Person {
 	   @Enumerated(EnumType.STRING)
 	   private Role role;
 
+	   Person(){
+		   
+	   }
+
+	   
 	   Person(String firstName, String lastName, String email, String phoneNumber,String password){
 		   this.firstName = firstName;
 		   this.lastName = lastName;

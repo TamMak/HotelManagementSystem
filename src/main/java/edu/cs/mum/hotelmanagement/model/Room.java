@@ -21,6 +21,7 @@ public class Room {
 	private double price;
 	private boolean avilability;
 	private String description;
+	
 	@ManyToOne
 	@JoinColumn(name = "hotelId", nullable = false)
 	private Hotel hotel;

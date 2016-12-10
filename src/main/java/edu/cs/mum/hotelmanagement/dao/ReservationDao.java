@@ -6,8 +6,7 @@ import org.springframework.stereotype.Repository;
 import edu.cs.mum.hotelmanagement.model.Reservation;
 
 @Repository
-public interface ReservationDao 
-extends JpaRepository<Reservation, Long>{
+public interface ReservationDao extends JpaRepository<Reservation, Long>{
 //extends CrudRepository<Reservation, Long>{
 	
 	

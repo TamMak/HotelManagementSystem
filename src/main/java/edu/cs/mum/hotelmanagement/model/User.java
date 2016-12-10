@@ -6,7 +6,12 @@ import javax.persistence.Entity;
 public class User extends Person {
 
 	  private String staffNumber;
-
+	  
+	  public User(){
+			super();
+			
+	 }
+	 
 	  public User(String firstName,String lastName,String email, String phoneNumber,String password,String staffNumber){
 			super(firstName,lastName,email,phoneNumber,password);
 			this.staffNumber = staffNumber;
