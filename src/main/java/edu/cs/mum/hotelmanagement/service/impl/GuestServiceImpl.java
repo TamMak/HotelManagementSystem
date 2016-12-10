@@ -2,6 +2,8 @@ package edu.cs.mum.hotelmanagement.service.impl;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,7 +11,7 @@ import edu.cs.mum.hotelmanagement.dao.GuestDao;
 import edu.cs.mum.hotelmanagement.model.Guest;
 import edu.cs.mum.hotelmanagement.service.GuestService;
 
-@Service
+@Transactional
 public class GuestServiceImpl implements GuestService {
 
 	private GuestDao guestDao;

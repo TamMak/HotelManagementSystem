@@ -29,6 +29,13 @@ public class SavedRoom {
 
 	}
 
+	public SavedRoom(Date date, Room room, Guest guest) {
+		super();
+		this.date = date;
+		this.room = room;
+		this.guest = guest;
+	}
+
 	public Long getId() {
 		return id;
 	}

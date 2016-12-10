@@ -1,7 +1,6 @@
 package edu.cs.mum.hotelmanagement.model;
 
 
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

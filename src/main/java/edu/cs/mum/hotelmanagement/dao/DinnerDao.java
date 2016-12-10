@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import edu.cs.mum.hotelmanagement.model.Dinner;
 
-
 @Repository
 public interface DinnerDao extends JpaRepository<Dinner, Long> {
 	public List<Dinner> findByDinnerName(String dinnerName);

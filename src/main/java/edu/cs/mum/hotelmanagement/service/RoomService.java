@@ -18,7 +18,7 @@ public interface RoomService {
 
 	void addRoomToSaved(SavedRoom sRoom);
 
-	List<Room> SearchRoom(Catagory catagory, double minPrice, double maxPrice, String roomNumber);
+	List<Room> SearchRoom(Catagory catagory, double minPrice, double maxPrice, String roomType);
 
 	List<SavedRoom> getSavedRooms(Guest guest);
 

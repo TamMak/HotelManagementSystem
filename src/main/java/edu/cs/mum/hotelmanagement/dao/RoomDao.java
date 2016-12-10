@@ -12,8 +12,6 @@ import edu.cs.mum.hotelmanagement.model.Room;
 public interface RoomDao extends JpaRepository<Room, Long> {
 	public List<Room> findByCatagory(Catagory catagory);
 
-//	public List<Room> findByGuest(Guest guest);
-
 	public List<Room> findByRoomNumber(String roomNumber);
 
 	public List<Room> findByPrice(double price);
